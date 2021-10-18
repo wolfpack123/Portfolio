@@ -1,5 +1,4 @@
  import React from 'react'
- import {Button} from "../ButtonElement"
  import { InfoContainer,InfoRow,InfoWrapper,Column1, TextWrapper,TopLine,Heading,Subtitle,BtnWrap, Column2, ImgWrap,Img,NavBtnLink } from './InfoElements'
  import Icon from "../images/svg-4.svg"
 
