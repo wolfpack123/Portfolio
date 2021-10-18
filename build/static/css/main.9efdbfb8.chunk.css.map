@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,EACI,QAAS,CACT,QAAS,CACT,qBAAsB,CACtB,wBACJ","file":"main.9efdbfb8.chunk.css","sourcesContent":["*{\r\n    margin: 0;\r\n    border: 0;\r\n    box-sizing: border-box;\r\n    font-family:\"Andada Pro\" ;\r\n}"]}
