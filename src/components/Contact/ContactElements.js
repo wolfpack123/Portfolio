@@ -2,7 +2,8 @@ import styled from "styled-components";
 import {Link} from "react-router-dom";
 
 export const Container = styled.div `
-    min-height:692px;
+    width:100%;
+    height:100%;
     position:fixed;
     bottom:0;
     left:0;
@@ -34,6 +35,7 @@ export const Icon = styled(Link)`
     float:left;
     padding:5px;
     max-width: 160px;
+    margin-top:30px;
 
     &:hover{
         transition: all 0.2s ease-in-out;
@@ -57,17 +59,17 @@ export const FormContent = styled.div `
 export const Form = styled.form `
     background:#010101;
     max-width:480px;
-    height:auto;
+    max-height:auto;
     width:100%;
     z-index:1;
     display:grid;
     margin:0 auto;
-    padding:80px 32px;
+    padding:50px 32px;
     border-radius:4px;
     box-shadow:0 1px 3px rgba(0,0,0,0.9);
 
     @media screen and (max-width: 480px){
-        padding:32px 32px;
+        padding:30px 25px;
     }
 `;
 
@@ -77,6 +79,11 @@ export const FormH1 = styled.h1 `
     font-size:20px;
     font-weight: 400;
     text-align: center;
+    top:5px;
+
+    @media screen and (max-width:480px){
+        font:size:10px;
+    }
 `;
 
 export const FormLabel = styled.label `
@@ -91,6 +98,11 @@ export const FormInput = styled.input `
     border:none;
     border-radius: 4px;
     font-size:20px;
+
+    @media screen and (max-width:480px){
+        font:size:10px;
+        padding: 10px 15px;
+    }
 `;
 
 export const FormButton = styled.button`
@@ -101,6 +113,11 @@ export const FormButton = styled.button`
     color:#fff;
     font-size:28px;
     cursor:pointer;
+
+    @media screen and (max-width:480px){
+        font:size:10px;
+        padding: 10px 0px;
+    }
 `;
 
 
@@ -112,4 +129,21 @@ export const TextArea = styled.textarea `
     rows:"40"; 
     cols:"100";
     font-size:20px;
+
+    @media screen and (max-width:480px){
+        font:size:10px;
+        padding: 10px 15px;
+    }
 `;
+
+export const SuccessText = styled.p `
+    color:white;
+    text-align:center;
+    justify-content:center;
+    font-size:10px;
+    margin-top:10px;
+
+    @media screen and (max-width:480px){
+        font:size:5px;
+    }
+`

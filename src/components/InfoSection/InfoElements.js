@@ -9,6 +9,9 @@ export const InfoContainer = styled.div`
     @media screen and (max-width: 768px){
         padding: 100px 0;
     }
+    @media screen and (max-width: 480px){
+        padding: 30px 0;
+    }
 `;
 
 export const InfoWrapper = styled.div `
@@ -59,6 +62,10 @@ export const TopLine = styled.p `
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 25px;
+
+    @media screen and (max-width:480px){
+        font-size:20px;
+    }
 `;
 
 export const Heading = styled.h1 `
@@ -70,7 +77,7 @@ export const Heading = styled.h1 `
     color: ${({lightText}) => (lightText ? 'white' : 'blueviolet')};
 
     @media screen and (max-width: 480px){
-        font-size: 32px;
+        font-size: 20px;
     }    
 `;
 
